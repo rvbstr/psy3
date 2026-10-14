@@ -47,7 +47,7 @@ export default function Hero() {
           <div className="order-1 lg:order-2 lg:pt-12">
             <div className="overflow-hidden bg-rule/20">
               <img
-                src="/pics/IMG_4183.PNG"
+                src={`${import.meta.env.BASE_URL}pics/IMG_4183.PNG`}
                 alt="Никита Нечаев — психолог и гештальт-терапевт"
                 width={1086}
                 height={1448}

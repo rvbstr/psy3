@@ -40,7 +40,7 @@ export default function About() {
           {/* Portrait */}
           <div className="bg-rule/20 overflow-hidden self-start">
             <img
-              src="/pics/IMG_4184.PNG"
+              src={`${import.meta.env.BASE_URL}pics/IMG_4184.PNG`}
               alt="Никита Нечаев — документальный портрет"
               width={1086}
               height={1448}
