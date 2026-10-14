@@ -47,10 +47,10 @@ export default function Hero() {
           <div className="order-1 lg:order-2 lg:pt-12">
             <div className="overflow-hidden bg-rule/20">
               <img
-                src="https://images.unsplash.com/photo-1576110598658-096ae24cdb97?w=720&h=960&fit=crop&crop=top&auto=format&q=80"
+                src="/pics/IMG_4183.PNG"
                 alt="Никита Нечаев — психолог и гештальт-терапевт"
-                width={720}
-                height={960}
+                width={1086}
+                height={1448}
                 className="w-full object-cover object-top block"
                 style={{ aspectRatio: '3/4', maxHeight: '620px' }}
               />

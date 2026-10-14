@@ -40,8 +40,11 @@ export default function About() {
           {/* Portrait */}
           <div className="bg-rule/20 overflow-hidden self-start">
             <img
-              src="https://images.unsplash.com/photo-1600603405959-6d623e92445c?w=600&h=480&fit=crop&crop=top&auto=format&q=80"
+              src="/pics/IMG_4184.PNG"
               alt="Никита Нечаев — документальный портрет"
+              width={1086}
+              height={1448}
+              loading="lazy"
               className="w-full h-full object-cover"
               style={{ aspectRatio: '5/4' }}
             />
