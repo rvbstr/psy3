@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 
 const navLinks = [
-  { label: 'С чем я работаю', href: '#problems' },
-  { label: 'Как проходит терапия', href: '#process' },
-  { label: 'Обо мне', href: '#about' },
+  { label: 'С\u00a0чем я\u00a0работаю', href: '#problems' },
+  { label: 'Как\u00a0проходит терапия', href: '#process' },
+  { label: 'Обо\u00a0мне', href: '#about' },
   { label: 'FAQ', href: '#faq' },
 ]
 
@@ -53,7 +53,7 @@ export default function Header() {
             href="#format"
             className="hidden lg:inline-flex items-center h-[48px] px-5 bg-pine text-white text-[14px] font-sans font-medium rounded-[6px] hover:bg-pine-deep transition-colors duration-150"
           >
-            Записаться на встречу
+            Записаться на&nbsp;встречу
           </a>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
@@ -92,7 +92,7 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
               className="mt-5 inline-flex justify-center items-center h-[50px] px-6 bg-pine text-white text-[15px] font-sans font-medium rounded-[6px]"
             >
-              Записаться на встречу
+              Записаться на&nbsp;встречу
             </a>
           </div>
         </nav>

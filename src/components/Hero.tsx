@@ -7,16 +7,16 @@ export default function Hero() {
           {/* Copy — left column */}
           <div className="flex flex-col justify-center py-8 lg:py-12 max-w-[620px] order-2 lg:order-1">
             <p className="font-sans text-[12px] text-muted tracking-[0.14em] uppercase mb-7">
-              Никита Нечаев · психолог и гештальт-терапевт
+              Никита Нечаев · психолог и&nbsp;гештальт-терапевт
             </p>
 
             <h1 className="font-display text-[40px] sm:text-[52px] lg:text-[64px] xl:text-[72px] leading-[1.08] text-ink mb-7 tracking-tight">
-              Помогаю лучше понимать себя, свои чувства и отношения — и менять то,{' '}
-              <em className="not-italic text-pine">что мешает жить</em>
+              Помогаю лучше понимать себя, свои чувства и&nbsp;отношения — и&nbsp;менять то,{' '}
+              <em className="not-italic text-pine">что&nbsp;мешает жить</em>
             </h1>
 
             <p className="font-sans text-[17px] text-muted leading-[1.65] mb-10 max-w-[520px]">
-              Работаю в гештальт-подходе и использую элементы когнитивно-поведенческой терапии.
+              Работаю в&nbsp;гештальт-подходе и&nbsp;использую элементы когнитивно-поведенческой терапии.
               Веду индивидуальную терапию онлайн.
             </p>
 
@@ -25,20 +25,20 @@ export default function Hero() {
                 href="#format"
                 className="inline-flex items-center h-[50px] px-7 bg-pine text-white font-sans text-[15px] font-medium rounded-[6px] hover:bg-pine-deep transition-colors duration-150"
               >
-                Записаться на первую встречу
+                Записаться на&nbsp;первую встречу
               </a>
               <a
                 href="#approach"
                 className="font-sans text-[15px] text-pine underline underline-offset-4 decoration-pine/40 hover:decoration-pine transition-all duration-150"
               >
-                Узнать, как я работаю
+                Узнать, как&nbsp;я&nbsp;работаю
               </a>
             </div>
 
             <div className="flex items-center gap-3">
               <span className="w-6 h-px bg-rule flex-shrink-0" />
               <p className="font-sans text-[13px] text-muted tracking-wide">
-                Онлайн · 60 минут · индивидуальная терапия
+                Онлайн · 60&nbsp;минут · индивидуальная терапия
               </p>
             </div>
           </div>

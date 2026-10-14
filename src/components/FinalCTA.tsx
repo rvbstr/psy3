@@ -7,10 +7,10 @@ export default function FinalCTA() {
 
           <div>
             <h2 className="font-serif text-[40px] lg:text-[52px] xl:text-[60px] leading-[1.1] text-white tracking-tight mb-6">
-              Начать можно с одной встречи
+              Начать можно с&nbsp;одной встречи
             </h2>
             <p className="font-sans text-[17px] text-white/70 leading-[1.65] max-w-[540px]">
-              На первой консультации мы познакомимся, обсудим происходящее и попробуем понять, может ли наша совместная работа быть вам полезна.
+              На&nbsp;первой консультации мы&nbsp;познакомимся, обсудим происходящее и&nbsp;попробуем понять, может&nbsp;ли наша совместная работа быть вам полезна.
             </p>
           </div>
 
@@ -21,7 +21,7 @@ export default function FinalCTA() {
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center h-[52px] px-7 bg-white text-pine-deep font-sans text-[15px] font-semibold rounded-[6px] hover:bg-white/90 transition-colors duration-150"
             >
-              Записаться на встречу
+              Записаться на&nbsp;встречу
             </a>
 
             <div className="flex flex-col gap-3 pt-2 border-t border-white/20">

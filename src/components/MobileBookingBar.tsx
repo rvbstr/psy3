@@ -17,7 +17,7 @@ export default function MobileBookingBar() {
         href="#format"
         className="flex justify-center items-center h-[50px] w-full bg-pine text-white font-sans text-[15px] font-medium rounded-[6px] hover:bg-pine-deep transition-colors duration-150"
       >
-        Записаться на встречу
+        Записаться на&nbsp;встречу
       </a>
     </div>
   )

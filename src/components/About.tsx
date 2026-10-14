@@ -15,24 +15,24 @@ export default function About() {
           {/* Text */}
           <div className="max-w-[660px]">
             <p className="font-sans text-[12px] text-muted tracking-[0.12em] uppercase mb-6">
-              Обо мне
+              Обо&nbsp;мне
             </p>
             <h2 className="font-serif text-[44px] lg:text-[50px] leading-[1.1] text-ink tracking-tight mb-8">
-              Я практикующий гештальт-терапевт и клинический психолог
+              Я&nbsp;практикующий гештальт-терапевт и&nbsp;клинический психолог
             </h2>
 
             <div className="font-sans text-[17px] text-muted leading-[1.68] space-y-5">
               <p>
-                Я занимаюсь терапией — личной, групповой, учебной и супервизионной — с 2018 года и веду активную терапевтическую практику более трёх лет.
+                Я&nbsp;занимаюсь терапией — личной, групповой, учебной и&nbsp;супервизионной — с&nbsp;2018&nbsp;года и&nbsp;веду активную терапевтическую практику более трёх лет.
               </p>
               <p>
-                Гештальт-терапии я обучался в <strong className="text-ink font-medium">Московском гештальт-институте</strong>, на первой и второй ступени программы у <strong className="text-ink font-medium">Льва Черняева и Нины Тимошенко</strong>.
+                Гештальт-терапии я&nbsp;обучался в&nbsp;<strong className="text-ink font-medium">Московском гештальт-институте</strong>, на&nbsp;первой и&nbsp;второй ступени программы у&nbsp;<strong className="text-ink font-medium">Льва Черняева и&nbsp;Нины Тимошенко</strong>.
               </p>
               <p>
-                В рамках обучения и профессионального развития я прошёл более 1000 часов практики, участвовал в профессиональных интенсивах и продолжаю регулярно работать с супервизором и интервизорской группой.
+                В&nbsp;рамках обучения и&nbsp;профессионального развития я&nbsp;прошёл более 1000&nbsp;часов практики, участвовал в&nbsp;профессиональных интенсивах и&nbsp;продолжаю регулярно работать с&nbsp;супервизором и&nbsp;интервизорской группой.
               </p>
               <p>
-                Я также получил подготовку в области <strong className="text-ink font-medium">клинической психологии</strong> в Московском институте психоанализа и проходил обучение техникам когнитивно-поведенческой терапии.
+                Я&nbsp;также получил подготовку в&nbsp;области <strong className="text-ink font-medium">клинической психологии</strong> в&nbsp;Московском институте психоанализа и&nbsp;проходил обучение техникам когнитивно-поведенческой терапии.
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ export default function About() {
         {/* Credentials */}
         <div className="border-t border-rule pt-10">
           <p className="font-sans text-[11px] text-muted tracking-[0.14em] uppercase mb-8">
-            Образование и профессиональная подготовка
+            Образование и&nbsp;профессиональная подготовка
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-0 border-t border-rule">
             {credentials.map((cred, i) => (

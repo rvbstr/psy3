@@ -54,7 +54,7 @@ export default function Footer() {
                 href="#"
                 className="font-sans text-[14px] text-muted hover:text-ink transition-colors duration-150"
               >
-                Согласие на обработку данных
+                Согласие на&nbsp;обработку данных
               </a>
             </nav>
           </div>
