@@ -81,8 +81,8 @@ function figmaSiteConfiguration(config: FigmaSiteConfiguration): Plugin {
     return html.replace(`<!-- ${slotName} -->`, content)
   }
 
-  const title = config.title ?? "Никита Нечаев | псизолог онлайн, гештальт-терапевт"
-  const description = config.description ?? ''
+  const title = config.title ?? "Никита Нечаев | психолог онлайн, гештальт-терапевт"
+  const description = config.description ?? 'Психолог онлайн, гештальт-терапевт'
   const favicon = config.icons?.icon ?? ''
   const socialImage = config.openGraph?.image ?? ''
   const language = sanitizeHtmlValue(config.language) || 'en'
