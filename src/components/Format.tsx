@@ -13,7 +13,7 @@ const items = [
   },
   {
     label: 'Стоимость',
-    text: '3500 ₽ / 60 минут',
+    text: '3500 ₽ test/ 60 минут',
     price: true,
   },
 ]
