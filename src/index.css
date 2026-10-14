@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300..700&display=swap');
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'RoslindaleCyrillic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/RoslindaleCyrillicVariable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'RoslindaleCyrillicDisplay';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'RoslindaleCyrillicText';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/RoslindaleCyrillicText-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'RoslindaleCyrillicText';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/RoslindaleCyrillicText-MediumItalic.woff2') format('woff2');
+}
+
+@theme {
+  --color-base: #F3F1EC;
+  --color-surface: #FAF9F6;
+  --color-ink: #1C211F;
+  --color-muted: #626762;
+  --color-pine: #345247;
+  --color-pine-deep: #263F37;
+  --color-rule: #D7D6D0;
+  --color-terra: #A65F48;
+  --font-sans: 'Manrope', system-ui, sans-serif;
+  --font-serif: 'RoslindaleCyrillic', 'RoslindaleCyrillicText', Georgia, serif;
+  --font-display: 'RoslindaleCyrillicDisplay', 'RoslindaleCyrillic', Georgia, serif;
+}
+
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+}
+
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-base);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-rule);
+  border-radius: 3px;
+}
+
+::selection {
+  background: var(--color-pine);
+  color: #fff;
+}
+
+/* Focus visible only on keyboard nav */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+:focus-visible {
+  outline: 2px solid var(--color-pine);
+  outline-offset: 3px;
+}
