@@ -1,4 +1,4 @@
-# Create a high-converting editorial website for psychologist Nikita Nechaev
+# Website design brief for psychologist Nikita Nechaev
 
 Create a polished, responsive, Russian-language website for an independent psychologist / psychotherapist:
 

@@ -1,13 +1,15 @@
-# figma-make-app
+# psy3
 
-React + Vite + Tailwind CSS project running inside Figma Make.
+Standalone React + Vite + Tailwind CSS website for psychologist Nikita Nechaev.
 
 ## Development Server
 
-A Vite development server is **already running** on `$PORT` (default 8443). You don't need to start it manually.
+Run `pnpm install --frozen-lockfile` and `pnpm dev` from the repository root. Use the Node 22 and pnpm 10.34.3 versions pinned in `.mise.toml`.
 
-- Preview URL: The user can access the running app through the preview panel
-- Hot reload: Changes to source files are reflected immediately
+- Vite uses `$PORT` when set and defaults to 8443. Verify whether a server is already running before starting another.
+- Hot reload reflects source changes immediately.
+- Validate changes with `pnpm build` and `pnpm exec tsc --noEmit`.
+- GitHub Pages builds and deploys through `.github/workflows/pages.yml`. Use `pnpm build --base /psy3/` to check the project-path build locally.
 
 ## Project Structure
 
@@ -16,9 +18,11 @@ This is the canonical project structure. Start with task-relevant files below. O
 - `src/main.tsx` - React entrypoint; imports `src/index.css` and mounts `src/App.tsx` into the `#root` element
 - `src/App.tsx` - Primary application component and the usual starting point for UI work
 - `src/index.css` - Global CSS entrypoint and Tailwind CSS v4 import
-- `index.html` - Vite HTML shell containing the `#root` element and loading `src/main.tsx`
+- `index.html` - Russian-language HTML shell, page metadata, `#root` element, and `src/main.tsx` entrypoint
 - `package.json` - Project dependencies and the Vite build, development, preview, and formatting scripts
-- `vite.config.ts` - Vite configuration with React, Tailwind CSS v4, and Figma Make plugins plus the `@` alias for `src`
+- `vite.config.ts` - Standard React and Tailwind CSS v4 plugins, the `@` alias for `src`, and development/preview ports
+- `public/robots.txt` - Preserves the site's current search-indexing restriction
+- `docs/design-brief.md` - Original visual and content brief
 - `.mise.toml` - Toolchain versions for Node.js and pnpm
 
 ## Dependencies
