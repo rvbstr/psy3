@@ -22,7 +22,9 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-9">
               <a
-                href="#format"
+                href="https://t.me/nikita_gestalt"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center h-[50px] px-7 bg-pine text-white font-sans text-[15px] font-medium rounded-[6px] hover:bg-pine-deep transition-colors duration-150"
               >
                 Записаться на&nbsp;первую встречу

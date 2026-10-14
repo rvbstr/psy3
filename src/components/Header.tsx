@@ -50,7 +50,9 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#format"
+            href="https://t.me/nikita_gestalt"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden lg:inline-flex items-center h-[48px] px-5 bg-pine text-white text-[14px] font-sans font-medium rounded-[6px] hover:bg-pine-deep transition-colors duration-150"
           >
             Записаться на&nbsp;встречу
@@ -88,7 +90,9 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="#format"
+              href="https://t.me/nikita_gestalt"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
               className="mt-5 inline-flex justify-center items-center h-[50px] px-6 bg-pine text-white text-[15px] font-sans font-medium rounded-[6px]"
             >

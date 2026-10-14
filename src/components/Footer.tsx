@@ -16,7 +16,7 @@ export default function Footer() {
             <p className="font-sans text-[11px] text-muted/60 tracking-[0.12em] uppercase mb-4">Связаться</p>
             <nav className="flex flex-col gap-2.5">
               <a
-                href="https://t.me/nikita_nechaev_psy"
+                href="https://t.me/nikita_gestalt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-sans text-[14px] text-muted hover:text-ink transition-colors duration-150"
@@ -24,7 +24,7 @@ export default function Footer() {
                 Telegram
               </a>
               <a
-                href="https://wa.me/79001234567"
+                href="https://wa.me/qr/QIBIG3KRZPX5N1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-sans text-[14px] text-muted hover:text-ink transition-colors duration-150"

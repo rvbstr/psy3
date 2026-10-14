@@ -16,7 +16,7 @@ export default function FinalCTA() {
 
           <div className="flex flex-col gap-5">
             <a
-              href="https://t.me/nikita_nechaev_psy"
+              href="https://t.me/nikita_gestalt"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center h-[52px] px-7 bg-white text-pine-deep font-sans text-[15px] font-semibold rounded-[6px] hover:bg-white/90 transition-colors duration-150"
@@ -28,7 +28,7 @@ export default function FinalCTA() {
               <p className="font-sans text-[12px] text-white/40 tracking-widest uppercase">Контакты</p>
               <div className="flex flex-col gap-2">
                 <a
-                  href="https://t.me/nikita_nechaev_psy"
+                  href="https://t.me/nikita_gestalt"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-sans text-[15px] text-white/70 hover:text-white transition-colors duration-150 underline underline-offset-4 decoration-white/20 hover:decoration-white/50 w-fit"
@@ -36,7 +36,7 @@ export default function FinalCTA() {
                   Telegram
                 </a>
                 <a
-                  href="https://wa.me/79001234567"
+                  href="https://wa.me/qr/QIBIG3KRZPX5N1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-sans text-[15px] text-white/70 hover:text-white transition-colors duration-150 underline underline-offset-4 decoration-white/20 hover:decoration-white/50 w-fit"

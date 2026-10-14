@@ -65,7 +65,7 @@ export default function Format() {
         <div className="border-t border-rule pt-14">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
             <a
-              href="https://t.me/nikita_nechaev_psy"
+              href="https://t.me/nikita_gestalt"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center h-[50px] px-7 bg-pine text-white font-sans text-[15px] font-medium rounded-[6px] hover:bg-pine-deep transition-colors duration-150"
@@ -74,7 +74,7 @@ export default function Format() {
             </a>
             <div className="flex items-center gap-4">
               <a
-                href="https://t.me/nikita_nechaev_psy"
+                href="https://t.me/nikita_gestalt"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-sans text-[14px] text-muted hover:text-ink transition-colors duration-150 underline underline-offset-4 decoration-rule hover:decoration-muted"
@@ -82,7 +82,7 @@ export default function Format() {
                 Telegram
               </a>
               <a
-                href="https://wa.me/79001234567"
+                href="https://wa.me/qr/QIBIG3KRZPX5N1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-sans text-[14px] text-muted hover:text-ink transition-colors duration-150 underline underline-offset-4 decoration-rule hover:decoration-muted"
