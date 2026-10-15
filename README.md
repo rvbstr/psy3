@@ -38,6 +38,6 @@ Set the repository's Settings → Pages → Source to **GitHub Actions**. Pushin
 
 Images and fonts use Git LFS. GitHub Desktop handles LFS; for a command-line checkout, install Git LFS and run `git lfs install` followed by `git lfs pull`.
 
-Search indexing remains disabled by the existing `noindex, nofollow` metadata in `index.html` and `public/robots.txt`.
+Search indexing is enabled in `index.html` and `public/robots.txt`. The sitemap is available at `https://gestalt-nechaev.com/sitemap.xml`; submit it in Google Search Console and Яндекс Вебмастер to help search engines discover the site. Search engines decide when to crawl and index it.
 
 The original site design brief is in [docs/design-brief.md](docs/design-brief.md).

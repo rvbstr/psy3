@@ -21,7 +21,9 @@ This is the canonical project structure. Start with task-relevant files below. O
 - `index.html` - Russian-language HTML shell, page metadata, `#root` element, and `src/main.tsx` entrypoint
 - `package.json` - Project dependencies and the Vite build, development, preview, and formatting scripts
 - `vite.config.ts` - Standard React and Tailwind CSS v4 plugins, the `@` alias for `src`, and development/preview ports
-- `public/robots.txt` - Preserves the site's current search-indexing restriction
+- `public/robots.txt` - Allows search crawling and declares the sitemap URL
+- `public/sitemap.xml` - Lists the canonical homepage for search engines
+- `public/favicon_io/` - Browser icons, Apple touch icon, and web manifest
 - `docs/design-brief.md` - Original visual and content brief
 - `.mise.toml` - Toolchain versions for Node.js and pnpm
 
